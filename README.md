@@ -7,10 +7,8 @@
 
 ## Getting Started with Intellij IDE
 
-To get started you will need to have Intellij-IDE installed. Have you followed the presentations?
-
+To get started you will need to have Intellij installed. Have you followed the presentations?
 Once installed, copy this project's URL to sublime merge (As explained in the presentation!)
-
 And open the folder in Intellij. 
 
 ![Open folder in Intellij](images/open_folder_in_intellij.png)
@@ -24,11 +22,12 @@ Here, your mission is to solve koans which will help you learn about programming
 
 ### Ask the master for koans
 
-When you open the Java Koans for the FRC in VS Code, you should see something similar to this:
+When you open the Java Koans in Intellij, you should see something similar to this:
 
-![VS Code](images/opened_koans.png)
+![INTELLIJ IDE](images/opened_koans.png)
 
-Expand the `src` folder, then right click on the file `src\main\java\EnglishPathToEnlightment.java` and choose `Run Java`:
+Expand the `src` folder, then open the file `src\main\java\EnglishPathToEnlightment.java`. On the right up side, it will show you a green arrow. 
+Click it to run the program
 
 ![Run Java](images/run_java.png)
 
@@ -41,8 +40,11 @@ The master of the Java Koans is telling you a lot of things at once, so let's de
 ![First result, commented](images/result1_commented.png)
 
 First, it tells you that it is trying to teach you  `AboutConsoleAndVariables`. 
+
 Then it tells you that you did not complete the `Displaying some text in the console` koan.
+
 Which is normal, because you have not even started yet! 
+
 Then it shows a mysterious `Console` box, which we will ignore for now. 
 At the very bottom, it tells you you can look for `Displaying some text in the console` in the `src/main/java/koans/AboutConsoleAndVariables.java` file.
 
@@ -52,7 +54,7 @@ Open that file in Intellij IDE:
 
 ![open src/main/java/koans/AboutConsoleAndVariables.java](images/open_first_koan.png)
 
-Wow, there is a lot going on! In order to understand what is all of this, we need to learn a few things about Java.
+There are lots of things here. Let's go over them one by one.
 
 ### Java files
 
