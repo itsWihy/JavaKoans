@@ -22,7 +22,7 @@
 
 Java Koans for the FRC is an interactive, step by step, course to teach Java to students engaged in the [First Robotics Competition](https://www.firstinspires.org/robotics/frc). It requires no previous experience in programming. It does not intend to teach the entirety of the Java language, but rather most of the fundamentals required to start learning how to program a FRC robot.
 
-## Getting Started with VS Code
+## Getting Started with Intellij IDE
 
 To get started you will need to either install VS Code or use GitHub Codespaces, which is a browser based IDE. If you are unable to install VS Code, because you're on a Chromebook or do not have permissions to install an application, you can skip ahead to [Getting Started with GitHub Codespaces](#getting-started-with-github-codespaces)
 
@@ -46,16 +46,6 @@ And open the folder in which you extracted the koans (for example, `C:\Users\Jan
 Note: VS Code will ask you if you trust the code within the folder. You'll have to answer 'yes' to proceed.
 
 You are ready to go!
-
-## Getting Started with GitHub Codespaces
-
-GitHub Codespaces provides a cloud-based development environment. It allows you to effortlessly set up and access a consistent development environment directly from your web browser. This is useful when your students only have access to Chromebooks or for other reasons are not able to install and configure VS Code.
-
-To get started with GitHub Codespaces, simply click the "Code" button and select "Create codespace on Master" to create or access your development environment.
-
-![Codespace](images/codespace_button.png)
-
-For more information GitHub Codespaces, including cost, check out [Codespaces Description](https://github.com/features/codespaces)
 
 ## Learning to code with the Java Koans for the FRC
 
