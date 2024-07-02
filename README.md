@@ -1,6 +1,3 @@
-<a name="english"></a>
-# ![English Flag](images/english_flag.png) Java Koans for the FRC
-
 ## Table of content
 
 - [Overview](#overview)
