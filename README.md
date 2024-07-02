@@ -1,14 +1,9 @@
 ## Table of content
 
-- [Overview](#overview)
 - [Getting Started with Intellij-IDE](#getting-started-with-intellij-ide)
 - [Learning to code with the Java Koans for the FRC](#learning-to-code-with-the-java-koans-for-the-frc)
 - [Java cheat sheet](#java-cheat-sheet)
 - [And then what?](#and-then-what)
-
-## Overview
-
-Java Koans for the FRC is an interactive, step by step, course to teach Java to students engaged in the [First Robotics Competition](https://www.firstinspires.org/robotics/frc). It requires no previous experience in programming. It does not intend to teach the entirety of the Java language, but rather most of the fundamentals required to start learning how to program a FRC robot.
 
 ## Getting Started with Intellij IDE
 
@@ -16,7 +11,7 @@ To get started you will need to have Intellij-IDE installed. Have you followed t
 
 Once installed, copy this project's URL to sublime merge (As explained in the presentation!)
 
-And open the folder in which you extracted the koans (for example, `C:\Users\Jane\Documents\src\FrcJavaKoans`):
+And open the folder in Intellij. 
 
 ![Open folder in Intellij](images/open_folder_in_intellij.png)
 
@@ -24,7 +19,8 @@ Note: Intellij will ask you if you trust the code within the folder. Press 'yes'
 
 ## Learning to code with the Java Koans for the FRC
 
-A koan is a challenge a zen master is throwing at you to help you learn something. Here, your mission is to solve koans which will help you learn about programming in Java.
+A koan is a challenge a zen master is throwing at you to help you learn something. 
+Here, your mission is to solve koans which will help you learn about programming in Java.
 
 ### Ask the master for koans
 
@@ -44,7 +40,11 @@ Focus on this part:
 The master of the Java Koans is telling you a lot of things at once, so let's decompose a bit:
 ![First result, commented](images/result1_commented.png)
 
-First, it tells you that it is trying to teach you  `AboutConsoleAndVariables`. Then it tells you that you did not complete the `Displaying some text in the console` koan. Which is normal, because you have not even started yet! Then it shows a mysterious `Console` box, which we will ignore for now. At the very bottom, it tells you you can look for `Displaying some text in the console` in the `src/main/java/koans/AboutConsoleAndVariables.java` file.
+First, it tells you that it is trying to teach you  `AboutConsoleAndVariables`. 
+Then it tells you that you did not complete the `Displaying some text in the console` koan.
+Which is normal, because you have not even started yet! 
+Then it shows a mysterious `Console` box, which we will ignore for now. 
+At the very bottom, it tells you you can look for `Displaying some text in the console` in the `src/main/java/koans/AboutConsoleAndVariables.java` file.
 
 ### Opening the koan file
 
@@ -228,10 +228,3 @@ When you're finished let me know in the whatsapp.
 * `while` loops
 * Packages and classes with static methods
 * Objects, constructors, fields
-
-
-## License
-
-![CC BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
----
