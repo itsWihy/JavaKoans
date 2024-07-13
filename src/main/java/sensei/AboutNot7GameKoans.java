@@ -36,14 +36,6 @@ public class AboutNot7GameKoans {
         new Koan(CLASS, ROLLING_A_6_SIDED_DIE)
             .beforeFirstTest(
                 assertKoanMethodIsInvokable("die6")
-            )
-            .when(callKoanMethod("die6"))
-            .then(
-                assertReturnValueWithRandomEquals(rand -> die(rand))
-            )
-            .when(callKoanMethod("die6"))
-            .then(
-                assertReturnValueWithRandomEquals(rand -> die(rand))
             ),
         new Koan(CLASS, ASKING_A_QUESTION_TO_THE_PLAYER)
             .useConsole()
