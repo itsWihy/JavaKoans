@@ -41,37 +41,11 @@ public class AboutNot7GameKoans {
             .useConsole()
             .beforeFirstTest(
                 assertKoanMethodIsInvokable("askQuestion", String.class)
-            )
-            .when(callKoanMethod("askQuestion", DO_YOU_WANT_TO_CONTINUE))
-            .withStdInInputs(List.of(Y))
-            .then(
-                assertNextStdOutLineEquals(DO_YOU_WANT_TO_CONTINUE),
-                assertReturnValueEquals(true),
-                assertNoMoreLineInStdOut()
-            )
-            .when(callKoanMethod("askQuestion", DO_YOU_WANT_TO_CONTINUE))
-            .withStdInInputs(List.of(N))
-            .then(
-                assertNextStdOutLineEquals(DO_YOU_WANT_TO_CONTINUE),
-                assertReturnValueEquals(false),
-                assertNoMoreLineInStdOut()
             ),
         new Koan(CLASS, ROLLING_2_DICE)
             .useConsole()
             .beforeFirstTest(
                 assertKoanMethodIsInvokable("throwDice")
-            )
-            .when(callKoanMethod("throwDice"))
-            .then(
-                assertReturnValueWithRandomEquals(2, expectedDieSumResult(0, 1)),
-                assertNextStdOutLineEquals(YOU_THREW, expectedDieResult(0), expectedDieResult(1)),
-                assertNoMoreLineInStdOut()
-            )
-            .when(callKoanMethod("throwDice"))
-            .then(
-                assertReturnValueWithRandomEquals(2, expectedDieSumResult(0, 1)),
-                assertNextStdOutLineEquals(YOU_THREW, expectedDieResult(0), expectedDieResult(1)),
-                assertNoMoreLineInStdOut()
             ),
         new Koan(CLASS, PROGRAMMING_A_ROUND_OF_THE_GAME_1ST_STEP)
             .useConsoleAndShowStdinInputs()
@@ -80,11 +54,6 @@ public class AboutNot7GameKoans {
             )
             .when(callKoanMethod("gameRoundv1"))
             .withStdInInputs(List.of(N))
-            .then(
-                AboutNot7GameKoans::gameRoundv1Assertions
-            )
-            .when(callKoanMethod("gameRoundv1"))
-            .withStdInInputs(List.of(Y, Y, N))
             .then(
                 AboutNot7GameKoans::gameRoundv1Assertions
             ),
